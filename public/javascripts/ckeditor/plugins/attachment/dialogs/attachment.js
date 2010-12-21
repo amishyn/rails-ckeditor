@@ -152,7 +152,7 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 			    
 					var title = data.title || '';
 					attributes.title = (data.title.length == 0) ? file.filename : data.title;
-					attributes.class = file.className;
+          // attributes.class = file.className;
 					
 					// Popups and target.
 			    if ( data.target )
